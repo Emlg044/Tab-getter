@@ -11,7 +11,10 @@ def main():
     # Sultans of swing
     # video_url = "https://www.youtube.com/watch?v=H7N2nvBdZ4g&autoplay=1"
     # Bohemian rhapsody
-    video_url = "https://www.youtube.com/watch?v=n1WomoCiYqg&autoplay=1"
+    # video_url = "https://www.youtube.com/watch?v=n1WomoCiYqg&autoplay=1"
+    # Hotel california
+    video_url = "https://www.youtube.com/watch?v=VBuQKzROGtg&autoplay=1"
+    
     yt = YouTube(video_url)
     webbrowser.open(video_url)
     print("Playing YouTube video:")
